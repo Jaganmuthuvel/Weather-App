@@ -1,12 +1,51 @@
-# React + Vite
+🌦️ Weather Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive weather web application built with React. The app fetches real-time weather data from a public API, manages state efficiently for smooth user interactions, and integrates with ChatGPT to provide natural language insights, travel/weather tips, and explanations about weather conditions.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live Weather Data – Fetches real-time weather conditions (temperature, humidity, wind, forecast) via API.
 
-## Expanding the ESLint configuration
+Search by Location – Find weather updates by city, coordinates, or current location.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Data Management – Global state management for consistent UI updates.
+
+ChatGPT Integration – Ask natural language questions like “What should I wear today in New York?” or “Explain the difference between drizzle and mist”.
+
+Responsive UI – Clean design optimized for desktop and mobile.
+
+🛠️ Tech Stack
+
+Frontend: React
+ + Vite
+ or Create React App
+
+UI Components: Tailwind CSS
+ / ShadCN UI
+
+State Management: React Context / Redux Toolkit / Zustand (pick one)
+
+API: OpenWeatherMap
+ or WeatherAPI
+
+LLM Integration: OpenAI API
+ (ChatGPT model)
+
+Deployment: / Codesandbox / GitHub Pages
+
+📖 Usage
+
+Enter a city name to fetch real-time weather.
+
+View forecast details such as temperature, humidity, and wind speed.
+
+Use the ChatGPT panel to ask natural language questions about weather conditions, travel planning, or clothing suggestions.
+🧠 LLM Integration (ChatGPT)
+
+The app connects to OpenAI’s API to enhance user interaction:
+
+Explains weather terms in plain English.
+
+Provides travel advice based on weather.
+
+Suggests clothing/outdoor activity ideas.
