@@ -10,8 +10,6 @@ Search by Location – Find weather updates by city, coordinates, or current loc
 
 Data Management – Global state management for consistent UI updates.
 
-ChatGPT Integration – Ask natural language questions like “What should I wear today in New York?” or “Explain the difference between drizzle and mist”.
-
 Responsive UI – Clean design optimized for desktop and mobile.
 
 🛠️ Tech Stack
@@ -28,8 +26,6 @@ State Management: React Context / Redux Toolkit / Zustand (pick one)
 API: OpenWeatherMap
  or WeatherAPI
 
-LLM Integration: OpenAI API
- (ChatGPT model)
 
 Deployment: / Codesandbox / GitHub Pages
 
@@ -38,11 +34,6 @@ Deployment: / Codesandbox / GitHub Pages
 Enter a city name to fetch real-time weather.
 
 View forecast details such as temperature, humidity, and wind speed.
-
-Use the ChatGPT panel to ask natural language questions about weather conditions, travel planning, or clothing suggestions.
-🧠 LLM Integration (ChatGPT)
-
-The app connects to OpenAI’s API to enhance user interaction:
 
 Explains weather terms in plain English.
 
